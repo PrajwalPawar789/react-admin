@@ -7,10 +7,6 @@ function App() {
   const [theme, ColorMode] = useMode();
   const [newtheme, newColorMode] = useMode();
   return (
-
-    
-    
-    
     <ColorModeContext.Provider value={ColorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -24,6 +20,3 @@ function App() {
   );
 }
 export default App;
-
-
-
